@@ -56,5 +56,20 @@ body{
     }
 }
 .about{
-    height: ;
+    height:300px ;
+    font-size:23px;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+h2{
+    font-size: 40px;
+}
+.services{
+    background-image: url(/images/backgrounds/s_image.jpg);
+    background-size: cover;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
 }
