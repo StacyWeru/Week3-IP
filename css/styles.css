@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+    background-image: url(/images/backgrounds/h_img.jpg);
+    background-size: cover;
+    height: 668px;
+}
+.image{
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    
+}
+h1{
+  color: white;
+}
+.welcome.p{
+;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.mouse{
+    align-items: center;
+    padding-left: 50%;
+
+}
+#bounce{
+    padding-top: 180px;
+    align-items: center;
+    display: flex;
+    animation: bounce 3s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-55px);
+    }
+    60% {
+        transform: translateY(-45px);
+    }
+}
+.about{
+    height: ;
+}
