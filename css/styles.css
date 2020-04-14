@@ -25,9 +25,7 @@ html{
 h1{
   color: white;
 }
-.welcome.p{
-;
-}
+
 
 body{
     margin: 0;
@@ -72,4 +70,97 @@ h2{
     text-align: center;
     padding: 50px;
     margin: auto;
+}
+.whatWeDo h5{
+    text-align: center;
+    align-content: center;
+    font-size: 60px;
+    padding: 20px;
+
+}
+.whatWeDo{
+    padding: 30px;
+    font-family: 'Baloo Paaji 2', cursive;
+    align-content: center;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    background-size: 50px;
+    
+}
+.whatWeDo.row{
+    display: flex;
+    text-align: center;
+    align-content: space-between;
+}
+.whatWeDo.p{
+    display: none;
+
+}
+.click1{
+    padding: 35px;
+    margin : 10px;
+}
+.click2{
+    padding: 35px;
+    margin : 10px;
+}
+.click3{
+    padding: 35px;
+    margin : 10px;
+}
+
+.portfolio {
+    /*height: 650px;*/
+    padding-bottom: 50px;
+}
+.portfolio h6{
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 60px;
+    text-align: center;
+
+}
+.portfolio.row{
+    align-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.portfolio.img{
+    display: block;
+}
+.portfolio.p{
+    font-family:'Baloo Paaji 2', cursive;
+    text-align: center;
+    display: none;
+    position: absolute;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.column-md-3{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    display: flex;
+    margin-right: 35 px;
+    margin-left: 35 px;
+}
+.contact h2{
+text-align: center;
+font-family:'Baloo Paaji 2', cursive;
+padding-top: 60px;
+color: white;
+font-size: 60px;
+}
+.contact{
+    background-image: url(/images/backgrounds/c_image.jpg);
+    background-size: cover;
+    margin-top: 100px;
+
+}
+button{
+    position: relative;
+    top:20px;
+    right:50px;
 }
