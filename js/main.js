@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#icon1").click(function(){
+        $(".click1").toggle();
+        $("#par1").toggle();
+    });
+    $("#icon2").click(function(){
+        $(".click2").toggle();
+        $("#par2").toggle();
+    });
+    $("#icon3").click(function(){
+        $(".click3").toggle();
+        $("#par2").toggle();
+    });
+}
